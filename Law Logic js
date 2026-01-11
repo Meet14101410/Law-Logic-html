@@ -1,0 +1,4 @@
+function check(ans) {
+  document.getElementById("result").innerText =
+    ans === "Inertia" ? "✅ Correct!" : "❌ Try again!";
+}
