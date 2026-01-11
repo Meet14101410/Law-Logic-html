@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Law Logic</title>
+</head>
+<body>
+  <h1>⚖️ Law Logic</h1>
+  <p id="q">Newton’s First Law is also called?</p>
+
+  <button onclick="check('Inertia')">Law of Inertia</button>
+  <button onclick="check('Force')">Law of Force</button>
+  <button onclick="check('Motion')">Law of Motion</button>
+
+  <p id="result"></p>
+
+  <script>
+    function check(ans) {
+      document.getElementById("result").innerText =
+        ans === "Inertia" ? "✅ Correct!" : "❌ Try again!";
+    }
+  </script>
+</body>
+</html>
